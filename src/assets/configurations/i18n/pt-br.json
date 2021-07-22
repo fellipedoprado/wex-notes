@@ -1,9 +1,21 @@
 {
   "app": {
-    "name": "Angular App",
+    "name": "salve notas",
     "menu": {
-      "item-1": "Home",
-      "item-2": "Sobre"
-    }
+      "item-1": "home",
+      "item-2": "sobre"
+    },
+    "create": "criar",
+    "create-new": "criar novo",
+    "edit": "editar",
+    "delete": "excluir",
+    "search": "procurar",
+    "order-by": "ordenar por",
+    "title": "titulo",
+    "content": "conteudo",
+    "close": "fechar",
+    "save": "salvar",
+    "new-to-old": "mais novo para o mais antigo",
+    "old-to-new": "mais antigo para o mais novo"
   }
 }

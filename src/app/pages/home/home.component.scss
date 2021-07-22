@@ -1,0 +1,89 @@
+.main-container {
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 240px;
+  width: 240px;
+  margin: 10px;
+}
+
+.content {
+  word-wrap: break-word;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.search-input {
+  width: 1000px;
+  height: 80px;
+}
+
+.order-input {
+  width: 200px;
+}
+
+.create-btn {
+  height: 55px;
+  width: 300px;
+}
+
+@media screen and (max-width: 420px) {
+  .top-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .middle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 400px;
+    width: -webkit-fill-available;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .order-input {
+    width: 100%;
+  }
+
+  .create-btn {
+    height: 55px;
+    width: 100%;
+    margin-bottom: 18px;
+  }
+}

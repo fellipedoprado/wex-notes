@@ -10,6 +10,7 @@ export interface Environment {
       forMenu: string;
       forHeader: string;
     }
-  },
+  };
   featureFlags?: any;
+  apiUrl: string;
 }

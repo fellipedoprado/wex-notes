@@ -1,0 +1,26 @@
+<div class="main-container">
+  <h2 mat-dialog-title>{{ data ? 'edit' : 'create new'}}</h2>
+
+  <div mat-dialog-content>
+    <form [formGroup]="noteForm">
+      <p>
+        <mat-form-field appearance="outline" class="inputs">
+          <mat-label>title</mat-label>
+          <input matInput placeholder="title" type="text" formControlName="title">
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="outline" class="inputs">
+          <mat-label>content</mat-label>
+          <textarea matInput placeholder="content" type="text" formControlName="content" rows="{{textareaRows}}"></textarea>
+        </mat-form-field>
+      </p>
+    </form>
+  </div>
+
+  <div mat-dialog-actions class="card-footer">
+    <button mat-button (click)="close()" class="action-btn">close</button>
+    <button mat-button (click)="save()" class="action-btn">save</button>
+  </div>
+</div>
+

@@ -1,0 +1,152 @@
+{
+	"info": {
+		"_postman_id": "22580d1a-dfb5-44ad-a541-ae7454221f24",
+		"name": "KETA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Single Item",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://6078ed5ae7f4f50017184e92.mockapi.io/api/v1/todo/31",
+					"protocol": "https",
+					"host": [
+						"6078ed5ae7f4f50017184e92",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"todo",
+						"31"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Item",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://6078ed5ae7f4f50017184e92.mockapi.io/api/v1/todo/2",
+					"protocol": "https",
+					"host": [
+						"6078ed5ae7f4f50017184e92",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"todo",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Items",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://6078ed5ae7f4f50017184e92.mockapi.io/api/v1/todo",
+					"protocol": "https",
+					"host": [
+						"6078ed5ae7f4f50017184e92",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"todo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create new Item",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "That's my first ToDo",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Hey, I'm a test content. :)",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://6078ed5ae7f4f50017184e92.mockapi.io/api/v1/todo",
+					"protocol": "https",
+					"host": [
+						"6078ed5ae7f4f50017184e92",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"todo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Item",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Updated Title!",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Updated Content! 😎😎😁😁",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://6078ed5ae7f4f50017184e92.mockapi.io/api/v1/todo/2",
+					"protocol": "https",
+					"host": [
+						"6078ed5ae7f4f50017184e92",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"todo",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

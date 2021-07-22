@@ -1,9 +1,21 @@
 {
   "app": {
-    "name": "Angular Dashboard Template",
+    "name": "save notes",
     "menu": {
-      "item-1": "Home",
-      "item-2": "About"
-    }
+      "item-1": "home",
+      "item-2": "about"
+    },
+    "create": "create",
+    "create-new": "create new",
+    "edit": "edit",
+    "delete": "delete",
+    "search": "search",
+    "order-by": "order by",
+    "title": "title",
+    "content": "content",
+    "close": "close",
+    "save": "save",
+    "new-to-old": "newest to oldest",
+    "old-to-new": "oldest to newest"
   }
 }
